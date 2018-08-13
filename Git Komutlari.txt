@@ -1,0 +1,55 @@
+!!!!! Her zaman ilk olarka dosyayi git init yap !!!!!
+
+!!!!! Her turlu degisiklikten sonra git add ve git commit yapmayi unutma !!!!!
+
+git init (dosyayi icinde git klasoru olusturup hazirlar)
+
+git status ( git durumunu gosterir )
+
+git log (arsivdeki degisiklikleri listeler commitleri yani)
+
+git add . (Tum dosyalari git arsivine ekler)
+git add dosya adi (Sadece yazilan dosya adini git arsivine ekler)
+
+git commit -m "islem adi" ( her islemden sonra arsive kaydetmeyi saglar)
+
+git rm dosya adi (arsivden dosya silmeyi saglar)
+
+git diff (yapilan dosya degisikliklerini gosterir satir satir )(dalin adlarini yazarsan farklari gosterir)
+
+git mv (dosya ismi degistirme ve dizinini degistirmeyi saglar)
+
+git checkout -- dosya adi (silinen ya da degistirilen dosyayi eski haline getirir) (add yada commit edilmemis doya icin gecerli)
+git checkout commit numarasi -- . (git log komutunde cikan commitlere gore dosyayi eski haline dondurme)
+
+git reset HEAD dosya adi (add yapilmis dosyayi geri alir)
+
+git remote add repositoryAdi githubLinki (git icin repository ekler)
+
+git remote ( repositoryleri listeler)
+
+git push -u repositoryAdi master (repositoryleri gitHub sitesine ekler . Username ve password ister)
+
+git pull (gitHub sitesinden dosyalari masaustune cekme)
+
+git branch (dallari listeler)
+
+git branch --all (tum dallari listeler)
+
+git branch dalinAdi (yeni bir dal olusturur)
+
+git checkout dalinAdi (olusturdugun dala gecer)
+
+git merge dalinAdi ( secilen dal ile diger dallari birlestirir)
+
+Gitignore olusturma :
+
+cat >> .gitignore 
+dosya adi
+ctrl c
+
+cat .gitignore (gitignore dosyasindaki elemanlari gosterir)
+
+
+
+
